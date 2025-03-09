@@ -31,3 +31,17 @@ Determines if a given method requires a log (1) or not (0).
 #### Third Model
 Inserts logs into any position within a method, rather than only after specific patterns.
 Trained on the existing Fine-tuning data to propose log statements at all possible locations in the method.
+
+
+### Result Example
+#### Method include Try-Catch
+<img src="Img_and_Video/try_catch_generation_ex.PNG">
+
+#### Method include System Call
+<img src="Img_and_Video/system_call_generation_ex.PNG">
+
+#### Method include API
+<img src="Img_and_Video/API_generation_ex.PNG">
+
+### Method not include Try-Catch, System Call, API
+<img src="Img_and_Video/generation_ex.PNG">
